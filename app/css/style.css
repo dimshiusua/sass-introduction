@@ -111,6 +111,17 @@ button {
   border: none;
   cursor: pointer; }
 
+.inner::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-left: -5px; }
+
+.inner > * {
+  display: inline-block;
+  vertical-align: middle; }
+
 .advocacy-ic {
   background-image: url(../img/sprite.png);
   background-position: -97px 0px;
@@ -205,3 +216,20 @@ button {
         font-size: 16px; }
         .header .header-nav li a:hover {
           color: #f26523; }
+
+.inner {
+  height: -webkit-calc(100vh - 80px);
+  height: calc(100vh - 80px);
+  background: url("../img/inner-bg.jpg") no-repeat top center;
+  background-size: cover;
+  text-align: center; }
+  .inner .inner-block {
+    color: #fff; }
+    .inner .inner-block h1 {
+      font-size: 72px;
+      font-weight: 700;
+      margin-bottom: 30px; }
+    .inner .inner-block > span {
+      font-size: 28px;
+      font-weight: 300;
+      margin-bottom: 43px; }
