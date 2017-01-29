@@ -1,5 +1,41 @@
 @import "custom-variables";
 
+.container{
+    width: $desktopContainerWidth;
+    margin: 0 auto;
+}
+.icon{
+    display: inline-block;
+}
+.header{
+    height: $desktopHeaderHeight;
+    width: 100%;
+    background: #fff;
+
+    .logo{
+        float: left;
+        margin-top: 15px;
+    }
+    .header-nav{
+        float: right;
+        margin-right: 20px;
+        margin-top: 28px;
+        li {
+            display: inline-block;
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 20px;
+                margin-left: 10px;
+            }            
+            a{
+                font-size: 16px;
+                &:hover{
+                    color: $generalOrangeColor;
+                }
+            }
+        }
+    }
+}
 
 
 

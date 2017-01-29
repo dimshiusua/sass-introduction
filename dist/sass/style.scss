@@ -3,7 +3,8 @@
 @import "reset";
 @import "default-clases";
 @import "sprite";
-@import "layout";
+@include sprites($spritesheet-sprites);
+@import "_layout.scss";
 
 
 

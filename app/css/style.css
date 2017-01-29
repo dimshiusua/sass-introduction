@@ -110,3 +110,98 @@ input, textarea, input:before, textarea:before, input:after, textarea:after {
 button {
   border: none;
   cursor: pointer; }
+
+.advocacy-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -97px 0px;
+  width: 35px;
+  height: 34px; }
+
+.banking-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -35px -62px;
+  width: 35px;
+  height: 35px; }
+
+.building-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -70px -62px;
+  width: 27px;
+  height: 35px; }
+
+.case-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -35px -97px;
+  width: 35px;
+  height: 33px; }
+
+.children-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -62px;
+  width: 35px;
+  height: 35px; }
+
+.crime-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -62px 0px;
+  width: 35px;
+  height: 35px; }
+
+.employee-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -70px -97px;
+  width: 29px;
+  height: 30px; }
+
+.global-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 62px;
+  height: 62px; }
+
+.litigation-ic {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -97px;
+  width: 35px;
+  height: 34px; }
+
+.residence-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -97px -34px;
+  width: 35px;
+  height: 34px; }
+
+.search-ic {
+  background-image: url(../img/sprite.png);
+  background-position: -97px -68px;
+  width: 19px;
+  height: 19px; }
+
+.container {
+  width: 1040px;
+  margin: 0 auto; }
+
+.icon {
+  display: inline-block; }
+
+.header {
+  height: 80px;
+  width: 100%;
+  background: #fff; }
+  .header .logo {
+    float: left;
+    margin-top: 15px; }
+  .header .header-nav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 28px; }
+    .header .header-nav li {
+      display: inline-block;
+      margin-right: 30px; }
+      .header .header-nav li:last-child {
+        margin-right: 20px;
+        margin-left: 10px; }
+      .header .header-nav li a {
+        font-size: 16px; }
+        .header .header-nav li a:hover {
+          color: #f26523; }
