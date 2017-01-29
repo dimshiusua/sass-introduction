@@ -7,6 +7,29 @@
 .icon{
     display: inline-block;
 }
+//standart form style
+.form-control{
+    display: inline-block;
+    height: 57px;
+    padding: 0 15px;
+    border-radius: 2px;
+    color: $formControlTextColor;
+    font-size: 16px;
+}
+.form-btn{
+    display: inline-block;
+    height: 57px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: $generalOrangeColor;
+    padding: 0 27px;
+    text-transform: uppercase;
+    &:hover{
+        background: $generalOrangeColorHover;
+    }
+}
 .header{
     height: $desktopHeaderHeight;
     width: 100%;

@@ -23,7 +23,21 @@
         & > span{
             font-size: 28px;
             font-weight: 300;
-            margin-bottom: 43px;
+        }
+        .inner-form{
+            padding: 25px 37px;
+            background: rgba(0, 0, 0, 0.45);
+            margin-top: 43px;
+            .first-form{
+                .form-control{
+                    width: 325px;
+                }
+            }
+            input, select{
+                & + input{
+                    margin-left: 4px;
+                }
+            }
         }
     }
 }

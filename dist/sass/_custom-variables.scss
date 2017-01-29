@@ -1,16 +1,25 @@
-// general font family
-$generalFont: 'Open Sans';
-// general font size
-$generalFontSize: 12px;
-// general text color
-$generalColor: #000;
+//**************SIZES************************//
 //desktop container width
 $desktopContainerWidth: 1040px;
 //desktop header height
 $desktopHeaderHeight: 80px;
 
-//GENERAL COLORS
+//***************FONTS***********************//
+// general font family
+$generalFont: 'Open Sans';
+// general font size
+$generalFontSize: 12px;
+// general text color
+
+
+
+//***************COLORS*********************//
+$generalColor: #000;
 //general orange color
 $generalOrangeColor: #f26523;
+//general orange color HOVER
+$generalOrangeColorHover: #b35427;
 // general body bg
 $bodyBg: #fff;
+//form font color
+$formControlTextColor: #7e878d;

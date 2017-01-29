@@ -195,6 +195,29 @@ button {
 .icon {
   display: inline-block; }
 
+.form-control {
+  display: inline-block;
+  height: 57px;
+  padding: 0 15px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  color: #7e878d;
+  font-size: 16px; }
+
+.form-btn {
+  display: inline-block;
+  height: 57px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background: #f26523;
+  padding: 0 27px;
+  text-transform: uppercase; }
+  .form-btn:hover {
+    background: #b35427; }
+
 .header {
   height: 80px;
   width: 100%;
@@ -231,5 +254,12 @@ button {
       margin-bottom: 30px; }
     .inner .inner-block > span {
       font-size: 28px;
-      font-weight: 300;
-      margin-bottom: 43px; }
+      font-weight: 300; }
+    .inner .inner-block .inner-form {
+      padding: 25px 37px;
+      background: rgba(0, 0, 0, 0.45);
+      margin-top: 43px; }
+      .inner .inner-block .inner-form .first-form .form-control {
+        width: 325px; }
+      .inner .inner-block .inner-form input + input, .inner .inner-block .inner-form select + input {
+        margin-left: 4px; }
