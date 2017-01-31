@@ -122,6 +122,12 @@ button {
   display: inline-block;
   vertical-align: middle; }
 
+.grey-bg {
+  background: #f6f8f8; }
+
+.orange-text {
+  color: #f26523; }
+
 .advocacy-ic {
   background-image: url(../img/sprite.png);
   background-position: -97px 0px;
@@ -194,6 +200,12 @@ button {
 
 .icon {
   display: inline-block; }
+
+.simple-text-block {
+  padding: 27px 0;
+  font-size: 18px;
+  color: #5a6464;
+  border: 1px solid #e4ebec; }
 
 .form-control {
   display: inline-block;

@@ -8,6 +8,12 @@
     display: inline-block;
 }
 //standart form style
+.simple-text-block{
+    padding: 27px 0;
+    font-size: 18px;
+    color: $simpleTextColor;
+    border-bottom: 1px solid #e4ebec;
+}
 .form-control{
     display: inline-block;
     height: 57px;
