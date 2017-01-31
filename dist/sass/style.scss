@@ -5,6 +5,7 @@
 @import "sprite";
 @include sprites($spritesheet-sprites);
 @import "_layout.scss";
+@import "_media.scss";
 
 .inner{
     @extend %vertical-align;
@@ -44,11 +45,14 @@
 .service-wrap{
     padding: 60px 0 40px 0;
     overflow: hidden;
+    .row{
+    display: flex;
+    flex-wrap: wrap;
+    }
     .service-item{
-        float: left;
         padding: 0 10px;
         width: 33.3%;
-        min-height: 141px;
+        height: 141px;
         margin-bottom: 35px;
         .title{
             color: $generalOrangeColor;

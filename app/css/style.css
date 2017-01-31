@@ -260,6 +260,10 @@ button {
         .header .header-nav li a:hover {
           color: #f26523; }
 
+@media screen and (max-width: 975px) {
+  .service-item {
+    width: 350px; } }
+
 .inner {
   height: -webkit-calc(100vh - 80px);
   height: calc(100vh - 80px);
@@ -287,11 +291,18 @@ button {
 .service-wrap {
   padding: 60px 0 40px 0;
   overflow: hidden; }
+  .service-wrap .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
   .service-wrap .service-item {
-    float: left;
     padding: 0 10px;
     width: 33.3%;
-    min-height: 141px;
+    height: 141px;
     margin-bottom: 35px; }
     .service-wrap .service-item .title {
       color: #f26523;
