@@ -3,6 +3,10 @@
 .container{
     width: $desktopContainerWidth;
     margin: 0 auto;
+    padding: 0 10px;
+}
+.row{
+    margin: 0 -10px;
 }
 .icon{
     display: inline-block;

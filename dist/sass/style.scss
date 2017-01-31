@@ -41,6 +41,28 @@
         }
     }
 }
+.service-wrap{
+    padding: 60px 0 40px 0;
+    overflow: hidden;
+    .service-item{
+        float: left;
+        padding: 0 10px;
+        width: 33.3%;
+        min-height: 141px;
+        margin-bottom: 35px;
+        .title{
+            color: $generalOrangeColor;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        p{
+            width: 70%;
+            font-size: 16px;
+            color: $serviceItemPColor;
+            padding-top: 10px;
+        }
+    }
+}
 
 
 
