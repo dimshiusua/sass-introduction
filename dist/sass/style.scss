@@ -63,7 +63,35 @@
         }
     }
 }
-
+.carousel-wrap{
+    width: 100%;
+    min-height: 45px;
+    border: 1px solid #e2e6e7;
+    padding: 12px 0;
+    .carousel{
+        a{
+            color: $generalOrangeColor;
+            font-size: 14px;
+            // margin: 0 25px;
+        }
+    }
+}
+.slick-list{
+    position: relative;
+}
+.slick-arrow{
+    background: transparent;
+}
+.slick-prev-arrow{
+    position: absolute;
+    top: -3px;
+    left: -128px;
+}
+.slick-next-arrow{
+    position: absolute;
+    top: -3px;
+    right: -62px;
+}
 
 
 
