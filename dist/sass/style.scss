@@ -73,7 +73,8 @@
         font-weight: 600;
     }
     .news-row{
-        margin-top: 50px;
+        margin: 50px 0 61px 0;
+        overflow: hidden;
     }
     .news-post{
         float: left;
@@ -131,7 +132,9 @@
     top: -3px;
     right: -62px;
 }
-
+.category-btn{
+    margin-top: 45px;
+}
 
 
 
