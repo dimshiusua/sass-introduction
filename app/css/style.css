@@ -390,6 +390,12 @@ button {
   .counties-wrap .btn-row {
     margin: 57px 0 80px 0;
     overflow: hidden; }
+  .counties-wrap .find-solicitor-row {
+    height: 100px;
+    background: #f26523; }
+    .counties-wrap .find-solicitor-row .icon {
+      margin: 20px;
+      float: left; }
 
 .counties-btn {
   text-align: center; }

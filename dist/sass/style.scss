@@ -116,13 +116,22 @@
         margin: 57px 0 80px 0;
         overflow: hidden;
     }
+    .find-solicitor-row{
+        height: 100px;
+        background: #f26523;
+        .icon{
+            margin: 20px;
+            float: left;
+        } 
+
+    }
 }
 .counties-btn{
     text-align: center;
     & > a{
         margin: 28px 9px 0 9px;
     }
-}
+} 
 .carousel-wrap{
     width: 100%;
     min-height: 45px;
