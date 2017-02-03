@@ -98,7 +98,7 @@
         }
     }
     &.orange-btn{
-        border-color: white;
+        border-color: $generalOrangeColor;
         color: $generalOrangeColor;
         &:hover{
             background: $generalOrangeColor;
