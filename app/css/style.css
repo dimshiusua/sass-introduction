@@ -111,14 +111,14 @@ button {
   border: none;
   cursor: pointer; }
 
-.inner::before {
+.inner::before, .counties-wrap .find-solicitor-row::before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
   margin-left: -5px; }
 
-.inner > * {
+.inner > *, .counties-wrap .find-solicitor-row::before > * {
   display: inline-block;
   vertical-align: middle; }
 
@@ -467,6 +467,8 @@ button {
     .counties-wrap .find-solicitor-row .icon {
       margin: 20px;
       float: left; }
+    .counties-wrap .find-solicitor-row .solicitor-item {
+      display: inline-block; }
 
 .counties-btn {
   text-align: center; }
