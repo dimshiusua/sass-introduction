@@ -29,9 +29,10 @@
             padding: 25px 37px;
             background: rgba(0, 0, 0, 0.45);
             margin-top: 43px;
+            text-align: left;
             .first-form{
                 .form-control{
-                    width: 325px;
+                    width: 411px;
                 }
             }
             input, select{
@@ -39,6 +40,15 @@
                     margin-left: 4px;
                 }
             }
+            .more-options-btn{
+                cursor: pointer;
+                margin-top: 10px;
+                display: inline-block;
+            }
+            .more-options-form{
+                display: none;
+            }
+            
         }
     }
 }

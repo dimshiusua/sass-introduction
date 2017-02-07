@@ -163,6 +163,9 @@
             a{
                 color: $footerNavColor;
             }
+            a:hover{
+                text-decoration: underline;
+            }
         }
     }
     img{

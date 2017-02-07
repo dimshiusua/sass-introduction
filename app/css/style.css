@@ -344,6 +344,8 @@ button {
       margin: 0 8px; }
       .footer .footer-nav li a {
         color: #515a60; }
+      .footer .footer-nav li a:hover {
+        text-decoration: underline; }
   .footer img {
     margin-bottom: 30px; }
   .footer span {
@@ -439,11 +441,18 @@ button {
     .inner .inner-block .inner-form {
       padding: 25px 37px;
       background: rgba(0, 0, 0, 0.45);
-      margin-top: 43px; }
+      margin-top: 43px;
+      text-align: left; }
       .inner .inner-block .inner-form .first-form .form-control {
-        width: 325px; }
+        width: 411px; }
       .inner .inner-block .inner-form input + input, .inner .inner-block .inner-form select + input {
         margin-left: 4px; }
+      .inner .inner-block .inner-form .more-options-btn {
+        cursor: pointer;
+        margin-top: 10px;
+        display: inline-block; }
+      .inner .inner-block .inner-form .more-options-form {
+        display: none; }
 
 .service-wrap {
   padding: 60px 0 40px 0;
