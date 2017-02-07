@@ -118,41 +118,32 @@
         overflow: hidden;
     }
     .find-solicitor-row{
-        display: flex;
-        flex-flow: row wrap;
+
         height: 100px;
         background: $orangeBg;
         .icon{
             margin: 20px;
         }
-       
-        .solicitor-item{
-            margin: auto 0;
-            overflow: hidden;
-            text-align: center;
-            position: relative;
-            .find-solicitor-title{
-                color: white;
-                font-size: 30px;
-                margin-right: 147px;
-            }
-            a{
+       .solicitor-item{
+           float: left;
+           height: 100%;
+            span{
                 color: white;
                 font-size: 24px;
-                display: block;
-                margin: 0 44px 7px 44px;
-            }
-            span{
-                font-size: 14px;
-                color: #ab481a;
-            }
-        }
-        .solicitor-region{
-            height: 100px;
-            overflow: hidden;
-            width: 1px;
-            border: 1px solid #da5a1f;
-        }
+           }
+           & > .sub{
+               display: block;
+               font-size: 14px;
+               color: $solicitorSubColor;
+           }
+           .find-solicitor-title{
+               margin-right: 155px;
+           }
+       }
+       .solicitor-region{
+           border-left: 1px solid $solicitorBorderColor;
+           width: 161px;
+       }
     }
 }
 .counties-btn{

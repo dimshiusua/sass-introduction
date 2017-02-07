@@ -462,41 +462,25 @@ button {
     margin: 57px 0 80px 0;
     overflow: hidden; }
   .counties-wrap .find-solicitor-row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
     height: 100px;
     background: #f26523; }
     .counties-wrap .find-solicitor-row .icon {
       margin: 20px; }
     .counties-wrap .find-solicitor-row .solicitor-item {
-      margin: auto 0;
-      overflow: hidden;
-      text-align: center;
-      position: relative; }
-      .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
-        color: white;
-        font-size: 30px;
-        margin-right: 147px; }
-      .counties-wrap .find-solicitor-row .solicitor-item a {
-        color: white;
-        font-size: 24px;
-        display: block;
-        margin: 0 44px 7px 44px; }
+      float: left;
+      height: 100%; }
       .counties-wrap .find-solicitor-row .solicitor-item span {
+        color: white;
+        font-size: 24px; }
+      .counties-wrap .find-solicitor-row .solicitor-item > .sub {
+        display: block;
         font-size: 14px;
-        color: #ab481a; }
+        color: #a54619; }
+      .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
+        margin-right: 155px; }
     .counties-wrap .find-solicitor-row .solicitor-region {
-      height: 100px;
-      overflow: hidden;
-      width: 1px;
-      border: 1px solid #da5a1f; }
+      border-left: 1px solid #da5a1f;
+      width: 161px; }
 
 .counties-btn {
   text-align: center; }
