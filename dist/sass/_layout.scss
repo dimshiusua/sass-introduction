@@ -115,23 +115,39 @@
 .you-solicitor-wrap{
     height: 160px;
     margin-bottom: 44px;
-    & > .container > .title{
-        color: white;
-        width: 57%;
-        float: left;
-        span{ 
-            font-size: 32px;
-            font-weight: 600;
+    padding: 45px 0;
+    .container{
+        height: 100%;
+        overflow: hidden;
+        .you-solicitor-item::before{
             display: inline-block;
-            margin:0 0 19px 16px;
+            height: 100%;
+            vertical-align: middle;
+            content: "";
         }
-        p{
-            font-size: 16px;
+        .you-solicitor-item{
+            .title{
+                color: white;
+                width: 57%;
+                height: 100%;
+                float: left;
+                vertical-align: middle;
+                span{ 
+                    font-size: 32px;
+                    font-weight: 600;
+                    margin:0 0 19px 16px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .category-btn{
+                margin-top: 0;
+                height: 100%;
+                float: left;
+                vertical-align: middle;
+            }
         }
-    }
-    & .category-btn{
-        float: left;
-        margin-top: 0;
     }
 }
 

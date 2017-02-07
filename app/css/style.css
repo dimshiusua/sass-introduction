@@ -304,21 +304,33 @@ button {
 
 .you-solicitor-wrap {
   height: 160px;
-  margin-bottom: 44px; }
-  .you-solicitor-wrap > .container > .title {
-    color: white;
-    width: 57%;
-    float: left; }
-    .you-solicitor-wrap > .container > .title span {
-      font-size: 32px;
-      font-weight: 600;
+  margin-bottom: 44px;
+  padding: 45px 0; }
+  .you-solicitor-wrap .container {
+    height: 100%;
+    overflow: hidden; }
+    .you-solicitor-wrap .container .you-solicitor-item::before {
       display: inline-block;
-      margin: 0 0 19px 16px; }
-    .you-solicitor-wrap > .container > .title p {
-      font-size: 16px; }
-  .you-solicitor-wrap .category-btn {
-    float: left;
-    margin-top: 0; }
+      height: 100%;
+      vertical-align: middle;
+      content: ""; }
+    .you-solicitor-wrap .container .you-solicitor-item .title {
+      color: white;
+      width: 57%;
+      height: 100%;
+      float: left;
+      vertical-align: middle; }
+      .you-solicitor-wrap .container .you-solicitor-item .title span {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0 0 19px 16px; }
+      .you-solicitor-wrap .container .you-solicitor-item .title p {
+        font-size: 16px; }
+    .you-solicitor-wrap .container .you-solicitor-item .category-btn {
+      margin-top: 0;
+      height: 100%;
+      float: left;
+      vertical-align: middle; }
 
 /* Slider */
 .slick-slider {
