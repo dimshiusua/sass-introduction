@@ -115,7 +115,7 @@
 .you-solicitor-wrap{
     height: 160px;
     margin-bottom: 44px;
-    padding: 45px 0;
+    padding: 39px 0;
     .container{
         height: 100%;
         overflow: hidden;
@@ -129,16 +129,16 @@
             .title{
                 color: white;
                 width: 57%;
-                height: 100%;
                 float: left;
                 vertical-align: middle;
                 span{ 
                     font-size: 32px;
                     font-weight: 600;
-                    margin:0 0 19px 16px;
+                    margin-left:16px;
                 }
                 p{
                     font-size: 16px;
+                    margin-top: 13px;
                 }
             }
             .category-btn{

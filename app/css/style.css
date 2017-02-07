@@ -305,7 +305,7 @@ button {
 .you-solicitor-wrap {
   height: 160px;
   margin-bottom: 44px;
-  padding: 45px 0; }
+  padding: 39px 0; }
   .you-solicitor-wrap .container {
     height: 100%;
     overflow: hidden; }
@@ -317,15 +317,15 @@ button {
     .you-solicitor-wrap .container .you-solicitor-item .title {
       color: white;
       width: 57%;
-      height: 100%;
       float: left;
       vertical-align: middle; }
       .you-solicitor-wrap .container .you-solicitor-item .title span {
         font-size: 32px;
         font-weight: 600;
-        margin: 0 0 19px 16px; }
+        margin-left: 16px; }
       .you-solicitor-wrap .container .you-solicitor-item .title p {
-        font-size: 16px; }
+        font-size: 16px;
+        margin-top: 13px; }
     .you-solicitor-wrap .container .you-solicitor-item .category-btn {
       margin-top: 0;
       height: 100%;
