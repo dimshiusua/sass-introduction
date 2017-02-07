@@ -121,7 +121,8 @@
         height: 100px;
         background: $orangeBg;
         .icon{
-            margin: 20px;
+            margin: 0 20px 0 20px;
+            vertical-align: middle;
         }
         .solicitor-item::before{
             content: '';
@@ -140,6 +141,10 @@
            .solicitor-region{
                display: inline-block;
                vertical-align: middle;
+               a{
+                   display: inline-block;
+                   margin-bottom: 8px;
+               }
            } 
            & > .solicitor-region > .sub{
                display: block;
@@ -148,6 +153,7 @@
            }
            .find-solicitor-title{
                margin-right: 155px;
+               vertical-align: middle;
            }
        }
        .solicitor-border{
