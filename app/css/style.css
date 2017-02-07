@@ -466,19 +466,28 @@ button {
     background: #f26523; }
     .counties-wrap .find-solicitor-row .icon {
       margin: 20px; }
+    .counties-wrap .find-solicitor-row .solicitor-item::before {
+      content: '';
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle; }
     .counties-wrap .find-solicitor-row .solicitor-item {
       float: left;
-      height: 100%; }
+      height: 100%;
+      text-align: center; }
       .counties-wrap .find-solicitor-row .solicitor-item span {
         color: white;
         font-size: 24px; }
-      .counties-wrap .find-solicitor-row .solicitor-item > .sub {
+      .counties-wrap .find-solicitor-row .solicitor-item .solicitor-region {
+        display: inline-block;
+        vertical-align: middle; }
+      .counties-wrap .find-solicitor-row .solicitor-item > .solicitor-region > .sub {
         display: block;
         font-size: 14px;
         color: #a54619; }
       .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
         margin-right: 155px; }
-    .counties-wrap .find-solicitor-row .solicitor-region {
+    .counties-wrap .find-solicitor-row .solicitor-border {
       border-left: 1px solid #da5a1f;
       width: 161px; }
 
