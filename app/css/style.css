@@ -283,6 +283,11 @@ input[type="checkbox"] {
         font-size: 16px; }
         .header .header-nav li a:hover {
           color: #f26523; }
+  .header .search-form {
+    width: 100%;
+    height: -webkit-calc(-9px + 80px);
+    height: calc(-9px + 80px);
+    background: #9c9c9c; }
 
 .carousel-inner span {
   display: block;
@@ -529,7 +534,9 @@ input[type="checkbox"] {
               background: -webkit-linear-gradient(#fff, #e5e5e5);
               background: linear-gradient(#fff, #e5e5e5);
               color: #7e878d;
-              font-size: 16px; }
+              font-size: 16px;
+              -webkit-border-radius: 2px;
+                      border-radius: 2px; }
 
 .service-wrap {
   padding: 60px 0 40px 0;

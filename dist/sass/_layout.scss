@@ -68,7 +68,7 @@ input[type="checkbox"]{
     height: $desktopHeaderHeight;
     width: 100%;
     background: #fff;
-
+    position: relative;
     .logo{
         float: left;
         margin-top: 15px;
@@ -91,6 +91,13 @@ input[type="checkbox"]{
                 }
             }
         }
+    }
+    .search-form{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: calc(-9px + #{$desktopHeaderHeight});
+        background: rgba(156, 156, 156, 90);
     }
 }
 
