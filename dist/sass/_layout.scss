@@ -40,6 +40,30 @@
         background: $generalOrangeColorHover;
     }
 }
+input[type="checkbox"]{
+    display: none;
+    & + label{
+        display: inline-block;
+        cursor: pointer;
+        &::before{
+            content: '';
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            border-radius: 2px;
+            background: white;
+            margin-right: 9px;
+        }
+    }
+    &:checked{
+        & + label{
+            &::before{
+                background: white url('../img/checked.png') no-repeat center center;
+            }
+        }
+    }
+}
+
 .header{
     height: $desktopHeaderHeight;
     width: 100%;
