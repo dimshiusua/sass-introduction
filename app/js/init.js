@@ -16,6 +16,6 @@ $(function() {
 });
 })(jQuery);
 //form styler delay to correct fonts errors (http://dimox.name/jquery-form-styler/ )
-setTimeout(function() {
-  $('input, select').styler();
-}, 100)
+// setTimeout(function() {
+//   $('input, select').styler();
+// }, 100)
