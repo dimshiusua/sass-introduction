@@ -93,11 +93,26 @@ input[type="checkbox"]{
         }
     }
     .search-form{
+        // display: none;
         position: absolute;
         top: 0;
         width: 100%;
         height: calc(-9px + #{$desktopHeaderHeight});
-        background: rgba(156, 156, 156, 90);
+        background: rgba(166, 166, 166, 0.65);
+        .search-form-panel{
+            display: inline-block;
+            float: right;
+            width: 220px;
+            background: rgba(156, 156, 156, 0.61);
+            & > input{
+            color: white;
+            font-size: 14px;
+            padding-left: 23px;
+            background: rgba(156, 156, 156, 0.0);
+            height: 38px;
+            }
+        }
+        
     }
 }
 

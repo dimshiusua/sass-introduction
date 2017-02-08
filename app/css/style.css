@@ -265,7 +265,8 @@ input[type="checkbox"] {
 .header {
   height: 80px;
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  position: relative; }
   .header .logo {
     float: left;
     margin-top: 15px; }
@@ -284,10 +285,23 @@ input[type="checkbox"] {
         .header .header-nav li a:hover {
           color: #f26523; }
   .header .search-form {
+    position: absolute;
+    top: 0;
     width: 100%;
     height: -webkit-calc(-9px + 80px);
     height: calc(-9px + 80px);
-    background: #9c9c9c; }
+    background: rgba(166, 166, 166, 0.65); }
+    .header .search-form .search-form-panel {
+      display: inline-block;
+      float: right;
+      width: 220px;
+      background: rgba(156, 156, 156, 0.61); }
+      .header .search-form .search-form-panel > input {
+        color: white;
+        font-size: 14px;
+        padding-left: 23px;
+        background: rgba(156, 156, 156, 0);
+        height: 38px; }
 
 .carousel-inner span {
   display: block;
