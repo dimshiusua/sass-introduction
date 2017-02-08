@@ -50,16 +50,20 @@
                 display: none;
                 .input-group{
                     font-size: 16px;
+                    margin-bottom: 16px;
                     input{
                         width: 240px;
                     }
+                    label{
+                        margin-right: 48px;
+                    }
                     .input-group-item{
                         display: inline-block;
-                        label{
+                        & > label{
                             display: block;
+                            margin:0 0 8px 0;
                         }
                     }
-
                 } 
             }
             

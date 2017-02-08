@@ -472,13 +472,17 @@ input[type="checkbox"] {
       .inner .inner-block .inner-form .more-options-form {
         display: none; }
         .inner .inner-block .inner-form .more-options-form .input-group {
-          font-size: 16px; }
+          font-size: 16px;
+          margin-bottom: 16px; }
           .inner .inner-block .inner-form .more-options-form .input-group input {
             width: 240px; }
+          .inner .inner-block .inner-form .more-options-form .input-group label {
+            margin-right: 48px; }
           .inner .inner-block .inner-form .more-options-form .input-group .input-group-item {
             display: inline-block; }
-            .inner .inner-block .inner-form .more-options-form .input-group .input-group-item label {
-              display: block; }
+            .inner .inner-block .inner-form .more-options-form .input-group .input-group-item > label {
+              display: block;
+              margin: 0 0 8px 0; }
 
 .service-wrap {
   padding: 60px 0 40px 0;
