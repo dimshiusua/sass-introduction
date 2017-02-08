@@ -42,11 +42,25 @@
             }
             .more-options-btn{
                 cursor: pointer;
-                margin-top: 10px;
-                display: inline-block;
+                margin: 10px 0 20px 0;
+                display: block;
+                font-size: 14px;
             }
             .more-options-form{
                 display: none;
+                .input-group{
+                    font-size: 16px;
+                    input{
+                        width: 240px;
+                    }
+                    .input-group-item{
+                        display: inline-block;
+                        label{
+                            display: block;
+                        }
+                    }
+
+                } 
             }
             
         }

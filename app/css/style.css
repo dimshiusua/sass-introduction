@@ -466,10 +466,19 @@ input[type="checkbox"] {
         margin-left: 4px; }
       .inner .inner-block .inner-form .more-options-btn {
         cursor: pointer;
-        margin-top: 10px;
-        display: inline-block; }
+        margin: 10px 0 20px 0;
+        display: block;
+        font-size: 14px; }
       .inner .inner-block .inner-form .more-options-form {
         display: none; }
+        .inner .inner-block .inner-form .more-options-form .input-group {
+          font-size: 16px; }
+          .inner .inner-block .inner-form .more-options-form .input-group input {
+            width: 240px; }
+          .inner .inner-block .inner-form .more-options-form .input-group .input-group-item {
+            display: inline-block; }
+            .inner .inner-block .inner-form .more-options-form .input-group .input-group-item label {
+              display: block; }
 
 .service-wrap {
   padding: 60px 0 40px 0;
