@@ -294,11 +294,14 @@ input[type="checkbox"] {
     .header .search-form .search-form-panel {
       display: inline-block;
       float: right;
+      margin-right: 25px;
+      margin-top: 22px;
       width: 220px;
       background: rgba(156, 156, 156, 0.61); }
-      .header .search-form .search-form-panel > input {
+      .header .search-form .search-form-panel .search-form-item {
         color: white;
         font-size: 14px;
+        margin-right: -15px;
         padding-left: 23px;
         background: rgba(156, 156, 156, 0);
         height: 38px; }
