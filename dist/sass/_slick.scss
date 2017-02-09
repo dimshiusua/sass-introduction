@@ -1,5 +1,26 @@
 /* Slider */
-
+.slick-list{
+    position: relative;
+}
+.slick-arrow{
+    background: transparent;
+}
+.slick-prev-arrow{
+    position: absolute;
+    top: -3px;
+    left: -128px;
+    @media (max-width: 1312px){
+        left: -23px;
+    }
+}
+.slick-next-arrow{
+    position: absolute;
+    top: -3px;
+    right: -128px;
+    @media (max-width: 1312px){
+        right: -23px;
+    }
+}
 .slick-slider {
     position: relative;
     display: block;

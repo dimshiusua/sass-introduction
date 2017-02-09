@@ -4,6 +4,9 @@
     width: $desktopContainerWidth;
     margin: 0 auto;
     padding: 0 10px;
+    @media (max-width: 1102px){
+        width: $mediumDevicesContainerWidth;
+    }
 }
 .row{
     margin: 0 -10px;
