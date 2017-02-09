@@ -93,19 +93,19 @@ input[type="checkbox"]{
         }
     }
     .search-form{
-        // display: none;
+        display: none;
         position: absolute;
         top: 0;
         width: 100%;
         height: calc(-9px + #{$desktopHeaderHeight});
-        background: rgba(166, 166, 166, 0.65);
+        background: rgba(0, 0, 0, 0.39);
         .search-form-panel{
             display: inline-block;
             float: right;
             margin-right: 25px;
             margin-top: 22px;
             width: 220px;
-            background: rgba(156, 156, 156, 0.61);
+            background: rgba(0, 0, 0, 0.12);
             .search-form-item{
             color: white;
             font-size: 14px;
