@@ -111,14 +111,14 @@ button {
   border: none;
   cursor: pointer; }
 
-.inner::before {
+.header .search-form .search-form-panel::before, .inner::before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
   margin-left: -5px; }
 
-.inner > * {
+.header .search-form .search-form-panel > *, .inner > * {
   display: inline-block;
   vertical-align: middle; }
 
