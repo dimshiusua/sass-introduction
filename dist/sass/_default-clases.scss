@@ -24,6 +24,10 @@
         display: block;
         margin-top: 10px;
     }
+    @media (max-width: 879px){
+        font-size: 34px;
+        margin: 35px 25px;
+    }
 }
 .sub{
     font-size: 12px;

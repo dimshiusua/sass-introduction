@@ -1,15 +1,15 @@
 //desktop+netbook
 
-@media 1312px
+@media 1312px 
 .slick-prev-arrow
 .slick-next-arrow
 
 
-@media 1136px
+@media 1136px 
 .container
 
 
-@media 1081px
+@media 1081px 
 .slick slidesToShow
 .carousel-wrap
 .slick-prev-arrow
@@ -23,7 +23,7 @@
 
 //mobile
 
-@media 961px
+@media 961px 
 .container
 .inner
 .news-post
@@ -36,5 +36,22 @@
 .you-solicitor-item.category-btn
 
 @media 879px
+.inner-form
+.first-form input, select 
+.first-form.form-control
+.inner-block h1
+.input-group-item input
+.input-group label
+.solicitor-border
+.find-solicitor-title
+.solicitor-region span
+.orange-text
+.simple-text-block
+.service-wrap
+
+
+@media 767px
+//slick nav ON
+
 
 
