@@ -367,6 +367,10 @@ input[type="checkbox"] {
     @media (max-width: 767px) {
       .category-btn .btn {
         margin: 12px; } }
+    @media (max-width: 536px) {
+      .category-btn .btn {
+        margin: 12px;
+        width: 280px; } }
 
 .you-solicitor-wrap {
   height: 160px;
@@ -421,6 +425,10 @@ input[type="checkbox"] {
       font-size: 14px;
       font-weight: 300;
       margin: 0 8px; }
+      @media (max-width: 454px) {
+        .footer .footer-nav li {
+          font-size: 30px;
+          margin: 10px; } }
       .footer .footer-nav li a {
         color: #515a60; }
       .footer .footer-nav li a:hover {
@@ -674,7 +682,7 @@ input[type="checkbox"] {
   display: none; }
   .slicknav_menu .slicknav_nav {
     background: rgba(0, 0, 0, 0.71);
-    font-size: 2em;
+    font-size: 1.7em;
     padding-top: 15px;
     text-align: center;
     position: fixed;
@@ -825,12 +833,20 @@ input[type="checkbox"] {
 .service-wrap {
   padding: 60px 0 40px 0;
   overflow: hidden; }
+  @media (max-width: 700px) {
+    .service-wrap {
+      padding: 20px 0 20px 0;
+      text-align: center; } }
   .service-wrap .service-item {
     float: left;
     padding: 0 10px;
     width: 33.3%;
     height: 141px;
     margin-bottom: 35px; }
+    @media (max-width: 700px) {
+      .service-wrap .service-item {
+        width: 100%;
+        margin-bottom: 10px; } }
     .service-wrap .service-item .title {
       color: #f26523;
       font-size: 20px;
@@ -945,6 +961,9 @@ input[type="checkbox"] {
         @media (max-width: 897px) {
           .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
             margin-right: 0; } }
+        @media (max-width: 346px) {
+          .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
+            font-size: 31px; } }
     .counties-wrap .find-solicitor-row .solicitor-border {
       border-left: 1px solid #da5a1f;
       width: 161px; }
@@ -958,6 +977,9 @@ input[type="checkbox"] {
   text-align: center; }
   .counties-btn > a {
     margin: 28px 9px 0 9px; }
+    @media (max-width: 506px) {
+      .counties-btn > a {
+        width: 280px; } }
 
 .carousel-wrap {
   width: 100%;
@@ -968,9 +990,16 @@ input[type="checkbox"] {
   @media (max-width: 1081px) {
     .carousel-wrap {
       text-align: center; } }
+  @media (max-width: 767px) {
+    .carousel-wrap {
+      margin-bottom: 25px; } }
   .carousel-wrap .carousel a {
     color: #f26523;
     font-size: 14px; }
 
 .category-btn {
   margin-top: 45px; }
+
+@media (max-width: 454px) {
+  .global-ic {
+    display: none; } }

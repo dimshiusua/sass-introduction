@@ -153,12 +153,20 @@
 .service-wrap{
     padding: 60px 0 40px 0;
     overflow: hidden;
+    @media (max-width: 700px){
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
     .service-item{
         float: left;
         padding: 0 10px;
         width: 33.3%;
         height: 141px;
         margin-bottom: 35px;
+        @media (max-width: 700px){
+            width: 100%;
+            margin-bottom: 10px;
+        }
         .title{
             color: $generalOrangeColor;
             font-size: 20px;
@@ -289,7 +297,10 @@
                }
                @media (max-width: 897px){
                     margin-right: 0;
-                }
+               }
+               @media (max-width: 346px){
+                    font-size: 31px;
+               }
            }
        }
        .solicitor-border{
@@ -307,6 +318,9 @@
     text-align: center;
     & > a{
         margin: 28px 9px 0 9px;
+        @media (max-width: 506px){
+        width: 280px;
+        }
     }
 } 
 .carousel-wrap{
@@ -317,6 +331,9 @@
     margin-bottom: 73px;
     @media (max-width: 1081px){
         text-align: center;
+    }
+    @media (max-width: 767px){
+        margin-bottom: 25px;
     }
     .carousel{
         a{
@@ -330,5 +347,10 @@
     margin-top: 45px;
 }
 
+.global-ic{
+    @media (max-width: 454px){
+        display: none;
+    }
+}
 
 

@@ -179,6 +179,10 @@ input[type="checkbox"]{
         @media (max-width:767px){
             margin: 12px;
         }
+        @media (max-width:536px){
+            margin: 12px;
+            width: 280px;
+        }
     }
 }
 .you-solicitor-wrap{
@@ -242,6 +246,10 @@ input[type="checkbox"]{
             font-size: $footerNavSize;
             font-weight: 300;
             margin: 0 8px;
+            @media (max-width: 454px){
+                font-size: 30px;
+                margin: 10px;
+            }
             a{
                 color: $footerNavColor;
             }

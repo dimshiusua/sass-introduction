@@ -52,10 +52,25 @@
 
 @media 767px
 //slick nav ON
-
 category-btn.btn
+slick carousel
+carousel-wrap
 
+@media 700px
+.service-item
+.service-wrap
 
+@media 640px
+
+@media 536px
+.you-solicitor-item.category-btn
+
+@media 506px
+.counties-btn.btn
+
+@media 454px
+.icon-ic
+.footer-nav li	
 
 
 
