@@ -35,7 +35,7 @@
 .you-solicitor-item.title span
 .you-solicitor-item.category-btn
 
-@media 879px
+@media 897px
 .inner-form
 .first-form input, select 
 .first-form.form-control

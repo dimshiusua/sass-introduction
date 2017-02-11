@@ -23,7 +23,7 @@
             font-size: 72px;
             font-weight: 700;
             margin-bottom: 30px;
-            @media (max-width: 879px){
+            @media (max-width: 897px){
                 font-size: 50px;
                 margin-bottom: 10px;
             }
@@ -38,14 +38,14 @@
             margin-top: 43px;
             text-align: left;
             display: inline-block;
-            @media (max-width: 879px){
+            @media (max-width: 897px){
                 text-align: center;
                 margin-top: 15px;
             }
             .first-form{
                 .form-control{
                     width: 325px;
-                    @media (max-width: 879px){
+                    @media (max-width: 897px){
                         width: 100%;
                     }
                 }
@@ -53,7 +53,7 @@
             input, select{
                 & + input{
                     margin-left: 4px;
-                    @media (max-width: 879px){
+                    @media (max-width: 897px){
                         margin-left: 0;
                         margin-top: 10px;
                         width: 100%;
@@ -76,7 +76,7 @@
                     }
                     label{
                         margin-right: 48px;
-                        @media (max-width: 879px){
+                        @media (max-width: 897px){
                                margin: 15px;
                             }
                     }
@@ -88,7 +88,7 @@
                         }
                         & > input{
                             margin-left: 7px;
-                            @media (max-width: 879px){
+                            @media (max-width: 897px){
                                margin-left: 0px; 
                             }
                         }
@@ -107,7 +107,7 @@
                             padding: 0 45px 0 16px;
                             color: $formControlTextColor;
                             background: linear-gradient(#fff, #e5e5e5);
-                            @media (max-width:879px){
+                            @media (max-width:897px){
                                 width: 240px;
                             }
                             .jq-selectbox__select-text{
@@ -260,14 +260,14 @@
             span{
                 color: white;
                 font-size: 24px;
-                @media (max-width: 879px){
+                @media (max-width: 897px){
                     font-size: 36px;
                 }
            }
            .solicitor-region{
                display: inline-block;
                vertical-align: middle;
-               @media (max-width: 879px){
+               @media (max-width: 897px){
                      margin: 10px;
                 }
                a{
@@ -286,7 +286,7 @@
                @media (max-width: 1081px){
                    margin-right: 50px;
                }
-               @media (max-width: 879px){
+               @media (max-width: 897px){
                     margin-right: 0;
                 }
            }
@@ -294,7 +294,7 @@
        .solicitor-border{
            border-left: 1px solid $solicitorBorderColor;
            width: 161px;
-            @media (max-width: 879px){
+            @media (max-width: 897px){
                 width: 100%;
                 border-left: none;
                 border-top: 1px solid $solicitorBorderColor;

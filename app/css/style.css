@@ -131,7 +131,7 @@ button {
     .orange-text {
       display: block;
       margin-top: 10px; } }
-  @media (max-width: 879px) {
+  @media (max-width: 897px) {
     .orange-text {
       font-size: 34px;
       margin: 35px 25px; } }
@@ -241,7 +241,7 @@ button {
   @media (max-width: 1081px) {
     .simple-text-block {
       text-align: center; } }
-  @media (max-width: 879px) {
+  @media (max-width: 897px) {
     .simple-text-block {
       font-size: 22px; } }
 
@@ -542,7 +542,7 @@ input[type="checkbox"] {
       font-size: 72px;
       font-weight: 700;
       margin-bottom: 30px; }
-      @media (max-width: 879px) {
+      @media (max-width: 897px) {
         .inner .inner-block h1 {
           font-size: 50px;
           margin-bottom: 10px; } }
@@ -555,18 +555,18 @@ input[type="checkbox"] {
       margin-top: 43px;
       text-align: left;
       display: inline-block; }
-      @media (max-width: 879px) {
+      @media (max-width: 897px) {
         .inner .inner-block .inner-form {
           text-align: center;
           margin-top: 15px; } }
       .inner .inner-block .inner-form .first-form .form-control {
         width: 325px; }
-        @media (max-width: 879px) {
+        @media (max-width: 897px) {
           .inner .inner-block .inner-form .first-form .form-control {
             width: 100%; } }
       .inner .inner-block .inner-form input + input, .inner .inner-block .inner-form select + input {
         margin-left: 4px; }
-        @media (max-width: 879px) {
+        @media (max-width: 897px) {
           .inner .inner-block .inner-form input + input, .inner .inner-block .inner-form select + input {
             margin-left: 0;
             margin-top: 10px;
@@ -585,7 +585,7 @@ input[type="checkbox"] {
             width: 240px; }
           .inner .inner-block .inner-form .more-options-form .input-group label {
             margin-right: 48px; }
-            @media (max-width: 879px) {
+            @media (max-width: 897px) {
               .inner .inner-block .inner-form .more-options-form .input-group label {
                 margin: 15px; } }
           .inner .inner-block .inner-form .more-options-form .input-group .input-group-item {
@@ -595,7 +595,7 @@ input[type="checkbox"] {
               margin: 0 0 8px 0; }
             .inner .inner-block .inner-form .more-options-form .input-group .input-group-item > input {
               margin-left: 7px; }
-              @media (max-width: 879px) {
+              @media (max-width: 897px) {
                 .inner .inner-block .inner-form .more-options-form .input-group .input-group-item > input {
                   margin-left: 0px; } }
             .inner .inner-block .inner-form .more-options-form .input-group .input-group-item .jq-selectbox__select::before {
@@ -615,7 +615,7 @@ input[type="checkbox"] {
               background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e5e5e5));
               background: -webkit-linear-gradient(#fff, #e5e5e5);
               background: linear-gradient(#fff, #e5e5e5); }
-              @media (max-width: 879px) {
+              @media (max-width: 897px) {
                 .inner .inner-block .inner-form .more-options-form .input-group .input-group-item .jq-selectbox__select {
                   width: 240px; } }
               .inner .inner-block .inner-form .more-options-form .input-group .input-group-item .jq-selectbox__select .jq-selectbox__select-text {
@@ -746,13 +746,13 @@ input[type="checkbox"] {
       .counties-wrap .find-solicitor-row .solicitor-item span {
         color: white;
         font-size: 24px; }
-        @media (max-width: 879px) {
+        @media (max-width: 897px) {
           .counties-wrap .find-solicitor-row .solicitor-item span {
             font-size: 36px; } }
       .counties-wrap .find-solicitor-row .solicitor-item .solicitor-region {
         display: inline-block;
         vertical-align: middle; }
-        @media (max-width: 879px) {
+        @media (max-width: 897px) {
           .counties-wrap .find-solicitor-row .solicitor-item .solicitor-region {
             margin: 10px; } }
         .counties-wrap .find-solicitor-row .solicitor-item .solicitor-region a {
@@ -768,13 +768,13 @@ input[type="checkbox"] {
         @media (max-width: 1081px) {
           .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
             margin-right: 50px; } }
-        @media (max-width: 879px) {
+        @media (max-width: 897px) {
           .counties-wrap .find-solicitor-row .solicitor-item .find-solicitor-title {
             margin-right: 0; } }
     .counties-wrap .find-solicitor-row .solicitor-border {
       border-left: 1px solid #da5a1f;
       width: 161px; }
-      @media (max-width: 879px) {
+      @media (max-width: 897px) {
         .counties-wrap .find-solicitor-row .solicitor-border {
           width: 100%;
           border-left: none;
