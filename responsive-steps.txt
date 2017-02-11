@@ -53,5 +53,23 @@
 @media 767px
 //slick nav ON
 
+category-btn.btn
+
+
+
+
+
+реярш
+tablet 
+lenovo a3000 android 4.2.2
+chrome 56.02924.87
+
+phone
+lenovo a369i
+chrome 46.0.2490.76
+
+huawei CUN-U29
+chrome 55.0.2883.91
+
 
 

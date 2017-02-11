@@ -1,4 +1,4 @@
-
+//carousel init
 $('.carousel').slick({
   slidesToShow:6,
   slidesToScroll: 1,
@@ -26,3 +26,12 @@ $(function() {
 
 });
 })(jQuery);
+
+
+//slick nav mobile menu init
+;$(function(){  
+	$('.header-nav').slicknav({
+    label:'',
+    closeOnClick: true,
+  });
+});
