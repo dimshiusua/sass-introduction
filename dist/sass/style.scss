@@ -10,6 +10,9 @@
 .inner{
     @extend %vertical-align;
     height: calc(100vh - #{$desktopHeaderHeight});
+    @media (max-width: 961px){
+        height: 100%;
+    }
     background: url('../img/inner-bg.jpg') no-repeat top center;
     background-size: cover;
     text-align: center;
@@ -20,6 +23,10 @@
             font-size: 72px;
             font-weight: 700;
             margin-bottom: 30px;
+            @media (max-width: 879px){
+                font-size: 50px;
+                margin-bottom: 10px;
+            }
         }
         & > span{
             font-size: 28px;
@@ -31,14 +38,26 @@
             margin-top: 43px;
             text-align: left;
             display: inline-block;
+            @media (max-width: 879px){
+                text-align: center;
+                margin-top: 15px;
+            }
             .first-form{
                 .form-control{
                     width: 325px;
+                    @media (max-width: 879px){
+                        width: 100%;
+                    }
                 }
             }
             input, select{
                 & + input{
                     margin-left: 4px;
+                    @media (max-width: 879px){
+                        margin-left: 0;
+                        margin-top: 10px;
+                        width: 100%;
+                    }
                 }
             }
             .more-options-btn{
@@ -140,8 +159,11 @@
             font-size: 16px;
             color: $serviceItemPColor;
             padding-top: 10px;
-            @media (max-width: 1102px){
+            @media (max-width: 1081px){
                 width: 90%;
+            }
+            @media (max-width: 961px){
+                width: 100%;
             }
         }
     }
@@ -162,8 +184,14 @@
     .news-post{
         float: left;
         width: 33.333%;
+        @media (max-width: 961px){
+            width: 100%;
+        }
         & + .news-post{
             padding-left: 25px;
+            @media (max-width: 961px){
+                padding-left: 0;
+            }
         }
         .news-content{
             min-height: 221px;
@@ -171,6 +199,9 @@
             border-top: 6px solid #90bed5;
             border-radius: 1px;
             padding: 20px;
+            @media (max-width: 961px){
+                min-height: 0;
+            }
             .title{
                 color: $newsTitleColor;
                 font-size: 20px;
@@ -236,6 +267,9 @@
            .find-solicitor-title{
                margin-right: 155px;
                vertical-align: middle;
+               @media (max-width: 1081px){
+                   margin-right: 50px;
+               }
            }
        }
        .solicitor-border{
@@ -256,6 +290,9 @@
     border: 1px solid #e2e6e7;
     padding: 12px 0;
     margin-bottom: 73px;
+    @media (max-width: 1081px){
+        text-align: center;
+    }
     .carousel{
         a{
             color: $generalOrangeColor;

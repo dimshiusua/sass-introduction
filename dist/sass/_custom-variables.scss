@@ -3,8 +3,17 @@
 $desktopContainerWidth: 1060px;
 //desktop header height
 $desktopHeaderHeight: 80px;
-//@media max-width 1024px
-$mediumDevicesContainerWidth: 981px;
+
+//@MEDIA
+
+//@media 1136px container width
+$media1136ContainerWidth: 1004px;
+//@media 1081px container width
+$media1081ContainerWidth: 960px;
+//@media 961px container width
+$media961ContainerWidth: 100%;
+
+
 //***************FONTS***********************//
 // general font family
 $generalFont: 'Open Sans';

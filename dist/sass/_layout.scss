@@ -4,8 +4,14 @@
     width: $desktopContainerWidth;
     margin: 0 auto;
     padding: 0 10px;
-    @media (max-width: 1102px){
-        width: $mediumDevicesContainerWidth;
+    @media (max-width:1136px){
+        width: $media1136ContainerWidth;
+    }
+    @media (max-width:1081px){
+        width: $media1081ContainerWidth;
+    }
+    @media (max-width:961px){
+        width: $media961ContainerWidth;
     }
 }
 .row{
@@ -20,6 +26,9 @@
     font-size: 18px;
     color: $simpleTextColor;
     border-bottom: 1px solid #e4ebec;
+    @media (max-width:1081px){
+        text-align: center;
+    }
 }
 .form-control{
     display: inline-block;
@@ -109,7 +118,7 @@ input[type="checkbox"]{
             margin-right: 25px;
             margin-top: 22px;
             width: 220px;
-            background: rgba(0, 0, 0, 0.12);
+            background: rgba(255, 255, 255, 0.3);
             .search-form-item{
             color: white;
             font-size: 14px;
@@ -170,6 +179,9 @@ input[type="checkbox"]{
     height: 160px;
     margin-bottom: 44px;
     padding: 39px 0;
+    @media (max-width:961px){
+       height: 100%;
+     }
     .container{
         height: 100%;
         overflow: hidden;
@@ -185,10 +197,17 @@ input[type="checkbox"]{
                 width: 57%;
                 float: left;
                 vertical-align: middle;
+                @media (max-width:961px){
+                        width: 100%;
+                        text-align: center;
+                    }
                 span{ 
                     font-size: 32px;
                     font-weight: 600;
                     margin-left:16px;
+                    @media (max-width:961px){
+                        margin-left: 0px;
+                    }
                 }
                 p{
                     font-size: 16px;
@@ -200,13 +219,16 @@ input[type="checkbox"]{
                 height: 100%;
                 float: left;
                 vertical-align: middle;
+                @media (max-width:961px){
+                    float: none;
+                }
             }
         }
     }
 }
 .footer{
     text-align: center;
-    margin-bottom: 385px;
+    margin-bottom: 50px;
     .footer-nav{
         margin-bottom: 36px;
         li{

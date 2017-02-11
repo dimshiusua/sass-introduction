@@ -1,0 +1,40 @@
+//desktop+netbook
+
+@media 1312px
+.slick-prev-arrow
+.slick-next-arrow
+
+
+@media 1136px
+.container
+
+
+@media 1081px
+.slick slidesToShow
+.carousel-wrap
+.slick-prev-arrow
+.slick-next-arrow
+.container
+.service-item p
+.find-solicitor-title
+.simple-text-block
+.orange-text
+
+
+//mobile
+
+@media 961px
+.container
+.inner
+.news-post
+& + .news-post
+.news-content
+.service-item p
+.you-solicitor-wrap
+.you-solicitor-item.title
+.you-solicitor-item.title span
+.you-solicitor-item.category-btn
+
+@media 879px
+
+

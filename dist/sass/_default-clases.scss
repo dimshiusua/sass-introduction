@@ -20,6 +20,10 @@
 }
 .orange-text{
     color: $generalOrangeColor;
+    @media (max-width: 1081px){
+        display: block;
+        margin-top: 10px;
+    }
 }
 .sub{
     font-size: 12px;
